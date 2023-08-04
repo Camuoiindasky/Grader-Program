@@ -1,6 +1,3 @@
-# Hong Ngoc Dinh
-# CS1314.010
-
 import csv
 
 """
