@@ -1,11 +1,5 @@
 import csv
 
-"""
-with open('grades.csv', 'w', newline='') as f0:
-    w0 = csv.writer(f0)
-    w0.writerow(['First Name','Last Name','Grade','Exam 1','Exam 2','Exam 3'])
-"""
-  
 # Read grades from a file, list them on the screen.
 
 with open('grades.csv', 'r') as f1:
@@ -13,6 +7,7 @@ with open('grades.csv', 'r') as f1:
     for data in f1:
         (fname, lname, grade, exam1, exam2, exam3) = data.strip().split(',')
         print(fname.ljust(10), lname.ljust(10), grade.ljust(10), exam1.ljust(10), exam2.ljust(10), exam3.ljust(10))
+
 
 # Search students by name.
 
@@ -33,6 +28,7 @@ with open('grades.csv', 'r') as f2:
         if Found == False:
             print('There are no stundent named', search)
     else: print()
+
 
 # Add or delete a student
 # Add grades and auto-calculate the average grades of a student.
