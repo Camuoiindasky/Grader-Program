@@ -2,7 +2,7 @@
 
 _**A program that will help a professor in grading classes**_
 > Final Project of CS 1314 at Angelo State University in Dec 2021 <br>
-> Trying to update more feature in the upcoming time
+> Trying to improve and update features in the upcoming time
 
 ## The Certain Feature
 
